@@ -83,3 +83,9 @@ footer a {
     body{dislplay:flex}
     
 }
+nav a:hover{
+    color: green;
+}
+footer a:hover{
+    color:green;
+}
