@@ -79,9 +79,52 @@ footer a {
 .clip-path{
     clip-path: circle(50% at 50% 50%);
 }
-@media only screen and(max-width:455px){
-    body{dislplay:flex}
-    
+@media only screen and (max-width: 600px) {
+
+    header {
+        padding: 25px 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        float: none;
+        display: flex;
+        padding: 12px;
+    }
+
+    section {
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+
+    video {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 220px !important;
+    }
+
+    embed {
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    footer a {
+        float: none;
+        display: block;
+        padding: 10px;
+    }
 }
 nav a:hover{
     color: green;
